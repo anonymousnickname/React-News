@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-item {
+	padding: 5px 20px;
+	font-size: 2em;
+	font-family: sans-serif;
+    position: relative;
+	cursor: pointer;
+	text-decoration: none;
+	color: black
+}
+
+.header-item:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	background-color: black;
+	height: 5%;
+	width: 0;
+	transform: translateX(-50%);
+	transition: all 0.3s linear;
+}
+.header-item:hover:before{
+	width: 100%;
+}
+

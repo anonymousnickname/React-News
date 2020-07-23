@@ -1,0 +1,31 @@
+.news__inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.news__title {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.news__title::first-letter {
+    text-transform: capitalize;
+}
+
+.news__text {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.news__text::first-letter {
+    text-transform: capitalize;
+}
+
+.news__img {
+    max-width: 100%;
+    height:  250px;
+}
