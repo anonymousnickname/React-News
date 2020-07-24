@@ -23,7 +23,6 @@ export default class News extends Component {
         })
     }
 
-
     renderItems(arr) {
         return arr.map(({id, title, body}) => {
             return (
